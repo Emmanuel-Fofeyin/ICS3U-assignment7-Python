@@ -1,40 +1,45 @@
 #!/usr/bin/env python3
+
 # Created by: Emmanuel Fofeyin
-# Created on: Dec 2023
-# This program combines two lists by alternatingly taking elements.
+# Created on: June 2021
+# This program reverses a list
 
 
-def concatenates_lists(list1, list2):
-    for a_single_item in list2:
-        list1.append(a_single_item)
-    concatenated_list = list1
-    return concatenated_list
+def reverse_list(not_reversed_list):
+    # this function reverses a list
+    reversed_list = []
+    counter = len(not_reversed_list) - 1
+
+    while counter >= 0:
+        temp = not_reversed_list[counter]
+        reversed_list.append(temp)
+        counter = counter - 1
+
+    return reversed_list
 
 
 def main():
-    # this function gets two lists
+    # This function is the main function
+    not_reversed_list = []
+    reversed_list = []
+    user_input = ""
 
-    first_list = []
-    second_list = []
-    combined_lists = []
+    print("Keep entering anything and when you are done enter 'DONE' .")
 
-    # input
-    print("Please enter 5 items to place in the list: ")
-    for counter in range(1, 6):
-        item = input("Item {0}: ".format(counter))
-        first_list.append(item)
+    print()
 
-    print("Please enter 5 items to place in the second list: ")
-    for counter in range(1, 6):
-        item = input("Item {0}: ".format(counter))
-        second_list.append(item)
+   
+    while user_input != "DONE":
+        user_input = input("insert:")
+        if user_input != "DONE":
+            not_reversed_list.append(user_input)
 
-    # process and output
-    # calls function
-    combined_lists = concatenates_lists(first_list, second_list)
-    print("")
-    print("Here is your combined list: ")
-    print("{0}".format(combined_lists))
+    reversed_list = reverse_list(not_reversed_list)
+
+    print("\nReversed:")
+
+    for counter in range(len(reversed_list)):
+        print("{}".format(reversed_list[counter]))
 
     print("\nDone.")
 
