@@ -21,8 +21,10 @@
                 <mxCell id="2" value="Reverse List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="140" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="5" target="12" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="550" y="350" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="260" width="120" height="60" as="geometry"/>
@@ -51,9 +53,6 @@
                 <mxCell id="10" value="Get items in the list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; return perimeter&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="490" y="350" width="120" height="60" as="geometry"/>
-                </mxCell>
                 <mxCell id="37" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="38">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="400" y="340" as="targetPoint"/>
@@ -64,6 +63,9 @@
                 </mxCell>
                 <mxCell id="38" value="checks if counter i &amp;gt;=0 thenapend it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="340" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="return reversed list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
