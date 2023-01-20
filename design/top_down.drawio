@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Smseb0Y5ZLO8-_wWjXUX" name="Page-1">
-        <mxGraphModel dx="837" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="837" dy="293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -9,7 +9,13 @@
                         <Array as="points">
                             <mxPoint x="400" y="220"/>
                             <mxPoint x="310" y="220"/>
+                            <mxPoint x="220" y="220"/>
                         </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="260" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Reverse List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -19,13 +25,13 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="250" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="490" y="260" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="250" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="160" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -38,15 +44,26 @@
                         <mxPoint x="600" y="240" as="targetPoint"/>
                         <mxPoint x="410" y="220" as="sourcePoint"/>
                         <Array as="points">
-                            <mxPoint x="490" y="220"/>
+                            <mxPoint x="550" y="220"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="10" value="Get items in the list" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="340" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="160" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; return perimeter&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="340" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="490" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="checks if counter i &amp;gt;=0 thenapend it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
