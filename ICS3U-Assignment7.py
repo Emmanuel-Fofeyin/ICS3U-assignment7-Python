@@ -28,7 +28,6 @@ def main():
 
     print()
 
-   
     while user_input != "DONE":
         user_input = input("insert:")
         if user_input != "DONE":
